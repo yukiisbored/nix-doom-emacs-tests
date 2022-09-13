@@ -36,29 +36,16 @@
     "emacs-overlay": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": [
+          "nixpkgs"
+        ]
       },
       "locked": {
-        "lastModified": 1663012363,
-        "narHash": "sha256-fLCr2aV9kvS3ZNO+1SEjr+usZVOxoLRksq9zq5OHynQ=",
+        "lastModified": 1663044482,
+        "narHash": "sha256-7tunyDx22Gw2t10NdrYMDjxDVynyhwVbxfrGVdndlZc=",
         "owner": "nix-community",
         "repo": "emacs-overlay",
-        "rev": "5b8031ed8aa42fe7e4e5dd0f895a5b3fd4994690",
-        "type": "github"
-      },
-      "original": {
-        "id": "emacs-overlay",
-        "type": "indirect"
-      }
-    },
-    "emacs-overlay_2": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1662654452,
-        "narHash": "sha256-mrr161UOnVNx2pzR9ePmhVlxapzQ57ZDSLb9BRgW0bo=",
-        "owner": "nix-community",
-        "repo": "emacs-overlay",
-        "rev": "70e241d5b189982dabc1fe55829475c5c483c89d",
+        "rev": "df64799a97bfe5ebcd35aa66ca198b3cea5cc777",
         "type": "github"
       },
       "original": {
@@ -245,7 +232,9 @@
       "inputs": {
         "doom-emacs": "doom-emacs",
         "doom-snippets": "doom-snippets",
-        "emacs-overlay": "emacs-overlay_2",
+        "emacs-overlay": [
+          "emacs-overlay"
+        ],
         "emacs-so-long": "emacs-so-long",
         "evil-escape": "evil-escape",
         "evil-markdown": "evil-markdown",
@@ -302,20 +291,6 @@
       }
     },
     "nixpkgs": {
-      "locked": {
-        "lastModified": 1662934689,
-        "narHash": "sha256-mXi8hmhiunOVTeHiuouWXb0vTqjzp9v9kshMmI561Us=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "a0b7e70db7a55088d3de0cc370a59f9fbcc906c3",
-        "type": "github"
-      },
-      "original": {
-        "id": "nixpkgs",
-        "type": "indirect"
-      }
-    },
-    "nixpkgs_2": {
       "locked": {
         "lastModified": 1662911228,
         "narHash": "sha256-oJOrB2lEeBLaO8g1DKG5PK9a1zyOWypkscrEfxxEj8A=",
@@ -448,7 +423,7 @@
         "emacs-overlay": "emacs-overlay",
         "flake-utils": "flake-utils_2",
         "nix-doom-emacs": "nix-doom-emacs",
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": "nixpkgs"
       }
     },
     "rotate-text": {
